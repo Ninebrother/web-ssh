@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: webssh
+  data:
+    mongodb:
+      host: 172.24.132.107
+      port: 27017
+      database: webssh
+server:
+  port: 8088
+
+
+netty-websocket:
+  path: /terminal/socket
+  port: 80
+  bossLoopGroupThreads: 2
+  workerLoopGroupThreads: 2
